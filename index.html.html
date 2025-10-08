@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Club Rewards - Roblox</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+
+  /* Seção do topo (com imagem de fundo) */
+  .hero {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Camada escura para melhorar contraste do texto */
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 0;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: #c43aff;
+    color: white;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: background 0.3s;
+  }
+
+  .button:hover {
+    background-color: #a62cd4;
+  }
+
+  .online {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #e6e6e6;
+  }
+
+  /* Seção inferior (texto branco) */
+  .content {
+    background-color: white;
+    color: #3b014a;
+    padding: 60px 20px;
+  }
+
+  .content h2 {
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .content p {
+    font-size: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Seção com fundo -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1><i>Resgate. Ganhe. Participe.</i></h1>
+      <p>Ganhe recompensas a partir de missões feitas, você pode ganhar vários tipos de recompensas. 
+      A comunidade de membros do Club Rewards está cheia de possibilidades.</p>
+
+      <a href="https://www.roblox.com/share?code=b69deb56e587a149bb43f0753d555bd1&type=Server" class="button">DOWNLOAD</a>
+      <div class="online">11200 usuários online neste momento</div>
+    </div>
+  </section>
+
+  <!-- Seção branca -->
+  <section class="content">
+    <h2>Descubra, Ganhe, Divirta-se - Faça parte da comunidade!</h2>
+    <p>Estar sem Robux, Diamantes, Skins e entre muitas outras coisas é história antiga! 
+    O Club Rewards está cheio de missões. Milhares de membros de todo o mundo formam uma 
+    comunidade incrível cheia de recompensas. Ganhe, e aproveite suas recompensas – Club Rewards tem tudo. 
+    O que você está esperando? Baixe agora gratuitamente, e prepare suas próprias recompensas!</p>
+  </section>
+
+</body>
+
